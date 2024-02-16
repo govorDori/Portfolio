@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+.panel{
+    background-color: rgb(9, 9, 82);
+    box-shadow: 0 0 25px white;
+    color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-position: center;
+    background-size: cover;
+    /*transition: flex 0.7s linear;*/
+    transition: flex 0.7s cubic-bezier(.58,0,.29,1.5);
+}
+
+.panels{
+    min-height: 40vh;
+    display: flex;
+}
+
+.open{
+    flex: 5;
+}
+
