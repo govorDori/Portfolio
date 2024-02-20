@@ -18,7 +18,7 @@ function navigate(){
     let hash=window.location.hash.substring(2)
     console.log(hash);
     let page=routes[hash]
-    loadPage(page,document.querySelector('main'))
+    loadPage(page,document.querySelector('.container'))
 }
 async function loadPage(url,domObj){
     const response=await fetch(url)
