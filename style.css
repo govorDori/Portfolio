@@ -48,10 +48,26 @@ body{
     font-weight: 500;
     font-style: normal;
     font-size: 25px;
+    padding-bottom: 5px;
+    height: 70px;
 }
 
-.nav-link, .navbar-brand{
+
+.nav-link{
     color: rgb(255, 255, 255) !important;
+    width: 120px;
+    text-align: center;
+}
+
+.nav-link:hover{
+    font-size: 28px;
+    transition: 0.1s;
+}
+
+
+.nav-link:focus{
+    color: black !important;
+    font-size: 28px;
 }
 
 #rotatedNavPic{
@@ -63,13 +79,6 @@ body{
     border-radius: 10px;
 }
 
-#NavPic{
-    height: 50px;
-    width: 50px;
-    margin-top: 6px;
-    margin-left: 5px;
-    border-radius: 10px;
-}
 
 a{
     margin-top: 5px;
