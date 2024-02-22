@@ -43,13 +43,13 @@ body{
 
 
 /*NAVBAR*/
+
 .navbar-nav{
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 25px;
     padding-bottom: 5px;
-    height: 70px;
 }
 
 
@@ -60,14 +60,14 @@ body{
 }
 
 .nav-link:hover{
-    font-size: 28px;
+    font-size: 26px;
     transition: 0.1s;
 }
 
 
 .nav-link:focus{
     color: black !important;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 #rotatedNavPic{
