@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-image: url("https://i.ibb.co/bddhsf2/bg2.jpg");
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -124,11 +125,11 @@ a{
 
 @media only screen and (max-width: 765px){
     #homeh5{
-        font-size: 3.5vw !important;
+        font-size: 4vw !important;
     }
 
     #homeh1{
-        font-size: 4vw !important;
+        font-size: 5vw !important;
     }
 
     #imgHOME{
@@ -178,4 +179,11 @@ a{
 hr{
     border: 1px solid white;
     width: auto;
+}
+
+
+@media only screen and (max-width: 765px){
+    .panel{
+        font-size: 5vw;
+    }
 }
