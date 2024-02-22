@@ -1,9 +1,10 @@
 body{
     margin: 0;
-    background-color: rgb(22, 22, 23);
+    background-image: url("https://i.ibb.co/bddhsf2/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-
-
 
 
 .panel{
@@ -19,9 +20,9 @@ body{
     background-size: cover;
     /*transition: flex 0.7s linear;*/
     transition: flex 0.7s cubic-bezier(.58,0,.29,1.5);
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: "Namdhinggo", serif;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
     -webkit-text-stroke: 0.5px white;
 }
@@ -40,7 +41,7 @@ body{
 
 
 
-
+/*NAVBAR*/
 .navbar-nav{
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
@@ -75,7 +76,7 @@ a{
 
 
 
-
+/*HOME*/
 .textHOME{
     display: flex;
     flex-direction: column;
@@ -89,11 +90,15 @@ a{
     font-family: "Rubik Scribble", system-ui;
     margin-bottom: 20px;
     letter-spacing: 5px;
+    font-size: 3vw;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.596);
 }
 
 #homeh5{
     font-family: "Rubik Scribble", system-ui;
     letter-spacing: 2px;
+    font-size: 1.2vw;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.596);
 }
 
 .HOME{
@@ -117,20 +122,60 @@ a{
     border: 1px solid white;
 }
 
+@media only screen and (max-width: 765px){
+    #homeh5{
+        font-size: 3.5vw !important;
+    }
+
+    #homeh1{
+        font-size: 4vw !important;
+    }
+
+    #imgHOME{
+        max-width: 150px;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    #homeh5{
+        font-size: 2vw !important;
+    }
+
+    #homeh1{
+        font-size: 4vw !important;
+    }
+}
 
 
 
 
+
+/*ABOUT*/
 .textABOUT{
-    margin-top: 40px;
+    margin-top: 32px;
     border: 1px solid rgb(95, 19, 19);
-    height: 300px;
+    height: auto;
     box-shadow: 5px 3px 20px 3px rgb(95, 19, 19);
+    background-color: rgb(69, 14, 14);
 }
 
 #abouth1{
     font-family: "Rubik Scribble", system-ui;
     text-align: center;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.767);
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.596);
+    letter-spacing: 5px;
+}
+
+#abouth5{
+    font-family: "Rubik Scribble", system-ui;
     color: white;
-    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+hr{
+    border: 1px solid white;
+    width: auto;
 }
